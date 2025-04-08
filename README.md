@@ -1,12 +1,13 @@
-	# Rock | 📄 Paper | ✂️ Scissor - PyQt5 Game
-
-![screenshot](assets/image_of_game.png)
+# Rock | 📄 Paper | ✂️ Scissor - PyQt5 Game
+---
 
 A simple desktop Rock | Paper | Scissor game built using *Python* and *PyQt5 GUI Framework*.
 ---
+![screenshot](assets/image_of_game.png)
+---
 
 ## 👨‍💻 Author
-*Saptapan Barua*
+**Saptapan Barua**
 ---
 
 ## 🎮 Features
@@ -24,27 +25,27 @@ A simple desktop Rock | Paper | Scissor game built using *Python* and *PyQt5 GUI
 
 ### 1. Clone the Repository
 You can clone your project repository using git.
-bash
+```bash
 git clone https://github.com/saptapanBarua/Rock-Paper-Scissor-PyQt5-Game.git
 cd rock-paper-scissor-pyqt5
-
+```
 
 ### 2. 📦 install requirements
 Before running the game, make sure Python and pip are installed. Then install PyQt5 using:
-bash
+```bash
 pip install PyQt5
-
+```
 or You may optionally create a virtual environment to avoid system-wide installation:
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Linux/macOS
 venv\Scripts\activate     # On Windows
 pip install PyQt5
-
+```
 
 ### 3. 🚀 How to run
 ✅ Make sure the following folder and files are present:
-bash
+```bash
 assets/
 ├── game.png
 ├── rock.png
@@ -52,12 +53,11 @@ assets/
 ├── scissor.png
 ├── bot.png
 └── gamer.png
-
+```
 Run the Python script using:
-bash
+```bash
 python main.py
-
-
+```
 ---
 
 ### 🔧 Bug Fixes (Next Version)
