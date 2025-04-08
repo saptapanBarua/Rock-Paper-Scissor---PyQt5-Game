@@ -10,8 +10,8 @@ import random
 
 class Window(QWidget):
     '''Main App window'''
-    def _init_(self):
-        super()._init_()
+    def __init__(self):
+        super().__init__()
         # varialbles for app window
         self.window_width=500
         self.window_height=315
